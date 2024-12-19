@@ -1,3 +1,12 @@
+/***************************************************************
+Author       : hao2062
+Date         : 2024-12-17 13:10:10
+LastEditors  : hao2062 | 894357340@qq.com
+LastEditTime : 2024-12-19 16:47:37
+FilePath     : /rv1106_rv1103_240529/sysdrv/source/linux_drivers/acc/read_accel.c
+Description  : 加速度计测试程序，打开加速度计后循环读取
+Copyright (c) 2024 by 894357340@qq.com, All Rights Reserved. 
+***************************************************************/
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>

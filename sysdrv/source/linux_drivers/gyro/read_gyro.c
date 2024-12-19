@@ -1,3 +1,12 @@
+/***************************************************************
+Author       : hao2062
+Date         : 2024-12-18 09:53:57
+LastEditors  : hao2062 | 894357340@qq.com
+LastEditTime : 2024-12-19 16:47:57
+FilePath     : /rv1106_rv1103_240529/sysdrv/source/linux_drivers/gyro/read_gyro.c
+Description  : 陀螺仪测试程序
+Copyright (c) 2024 by 894357340@qq.com, All Rights Reserved. 
+***************************************************************/
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -10,7 +19,7 @@
 #define L3G4200D_IOCTL_BASE 77
 #define L3G4200D_IOCTL_SET_ENABLE _IOW(L3G4200D_IOCTL_BASE, 2, int)
 
-#define EVENT_DEVICE "/dev/input/event1"
+#define EVENT_DEVICE "/dev/input/event2"
 #define SENSOR_DEVICE "/dev/gyrosensor"
 
 #define DELAY_MS 500 // 延迟时间，单位毫秒
